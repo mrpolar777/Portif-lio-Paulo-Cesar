@@ -258,6 +258,15 @@ main {
 	}
 }
 
+#blog__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .blog-card {
     border-radius: 8px;
     overflow: hidden;
